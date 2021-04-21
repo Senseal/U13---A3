@@ -1,0 +1,11 @@
+Paths for assets (index)
+assets/{name}
+Paths for assets (other pages)
+../assets/{name}
+
+paths for other pages
+../index (to the homepage)
+../{foldername}/index.html (for other pages)
+#(for current page)
+
+adding more <div> <h1> sample text </h1> </div> just splits that line evenly again 

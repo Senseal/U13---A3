@@ -1,0 +1,136 @@
+
+body  { /* background colour */
+    background-color: #62ed5d5b
+  }
+  .navbar-custom { /* nav colour */
+    background-color: #09d54d;
+  }
+  
+  .image-1{
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .image-2{
+      border-radius: 15px;
+      display: block;
+      margin-left: auto;
+      margin-top: 5px;
+      margin-right: auto;
+      
+      
+    }
+  
+  .Title_text1{ /* title text */
+      padding-top: 15px;
+      font-weight:  bold;
+      text-align: center;
+      font-size: 40pt;
+      color: #154d9d;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  .Header_text1{ /* header text */
+    padding-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25pt;
+    color: #36d6ff;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .main_text1{ /* bolder text */
+    padding-top: 5px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20pt;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .main_text2{ /* normal text */
+    padding-top: 5px;
+    text-align: center;
+    font-size: 17pt;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .Text_center{
+    text-align: center;
+  }
+  .link{ /* Link colour */
+    color: #bf00ff;
+    text-decoration: underline;
+    
+  }
+
+  .Footer{
+    text-align: center;
+  }
+
+  .boot_button_padding_div{
+    text-align: center;
+  }
+
+  .boot_button_padding_a{
+    padding-left: 5px;
+    border-color: white;
+    border-width: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .w-100 {
+    margin: auto;
+    width: 75% !important; 
+  }
+.paragraph{
+  padding-top: 1mm;
+}
+.point_bold{
+  font-weight: Bolder;
+  font-size: medium;
+}
+
+.Point_lighter{
+  font-weight: lighter;
+}
+
+  /* table classes */
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight: 300;
+  }
+  tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #d0d0d0;
+  }
+  /* table classes end */
