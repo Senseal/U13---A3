@@ -1,16 +1,16 @@
 .flex-container {
     display: flex;
 
-    border: 2px rgb(0, 0, 255) solid;
+    border: 2px rgba(0, 0, 255, 0) solid;
 }
 .flex-container > * {
     width: 50%;
 
-    border: 2px rgb(255, 0, 0) solid;
+    border: 2px rgba(36, 36, 36, 0) solid;
 }
 
 .footer-Colouring{
-    border-top: 2.5px rgb(11, 0, 0) solid;
+    border-top: 2.5px rgb(12, 12, 12) solid;
     background-color: #34da6b;
 }
 
