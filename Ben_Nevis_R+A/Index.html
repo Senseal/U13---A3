@@ -2,18 +2,21 @@
 <html>
     <head>
 		<head>
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+			<script src="js.js"></script>
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 			<link rel="stylesheet" href="../Page_segments.css"> <!-- <li><a points the page to the CSS  </a</li> -->
 			<link rel="stylesheet" href="../styles.css">
-		<title>Three Peeks</title>
+		<title>Ben Nevis - Routes & Accomidation</title>
 
 	<body> <!-- <li><a nav bar beggining </a</li> -->
 		<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
 			<div class="container-fluid">
-			  <a class="navbar-brand" href="#"><img src="../Assets/three peaks challenge logo.png" alt="Logo" width="110" height="80" Margin-right="0.8rem" > </img></li>  </a>
+				<a class="navbar-brand" href="#"><img src="../Assets/three peaks challenge logo.png" alt="Logo" width="110" height="80" Margin-right="0.8rem" > </img></li>   Three Peaks Challenge </a>
 			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>		
@@ -34,7 +37,7 @@
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 					  <li><a class="dropdown-item" href="../Snowdon_Info/Index.html"> Info</a></li>
-					  <li><a class="dropdown-item" href="../Snowdon_R+A/Index.html"> Routs & Accomidation</a></li>
+					  <li><a class="dropdown-item" href="../Snowdon_R+A/Index.html"> Routes & Accomidation</a></li>
 					</ul>
 					<li class="nav-item dropdown"> <!-- <li><a Scafell </a</li> -->
 						<a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,7 +45,7 @@
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						  <li><a class="dropdown-item" href="../Scafell_pike_Info/Index.html"> Info 
-						  <li><a class="dropdown-item" href="../Scafell_pike_R+A/Index.html"> Routs & Accomidation</a></li>
+						  <li><a class="dropdown-item" href="../Scafell_pike_R+A/Index.html"> Routes & Accomidation</a></li>
 						</ul> 
 						<li class="nav-item dropdown">  <!-- <li><a Ben </a</li> -->
 							<a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,7 +53,7 @@
 							</a>
 							<ul class="dropdown-menu active" aria-labelledby="navbarDropdownMenuLink">
 							  <li><a class="dropdown-item" href="../Ben_Nevis_Info/Index.html">Info
-							  <li><a class="dropdown-item active" href="">Routs & Accomidation </a></li>
+							  <li><a class="dropdown-item active" href="">Routes & Accomidation </a></li>
 							</ul>
 				  </li>
 				</ul>
@@ -60,20 +63,76 @@
  </header>
  <!-- <li><a nav bar end </a</li> -->
 <main>
-			<div class="flex-container">
-			<div> <h1> Box 1-A </h1> </div>
-			<div> <h1> Box 2-A  </h1> </div>
+	<H1 class="main_text1">Accommodation near Ben Nevis</H1>
+	<table class="table_margin">
+		<tr>
+			<th><a class="link" href="https://www.premierinn.com/gb/en/hotels/scotland/highland/fort-william/fort-william.html?cid=KNC_Brn|_G_UK_UK_Eng_Enc_Brand-Destinations_LO_Highland_EX&mckv=smscj5QEI_dc|pcrid|223578599451|kword|fort%20william%20premier%20inn|match|e|plid||pgrid|40723410930|ptaid|kwd-299829424311|&s_kwcid=AL!9693!3!223578599451!e!!g!!fort%20william%20premier%20inn!902402600!40723410930&ef_id=Cj0KCQjwvYSEBhDjARIsAJMn0lixNPEl0xin8Q2NQzOiqJHLkOAm7iZeSHWqOOoc3T60Eesyxztcq2MaAtZ3EALw_wcB:G:s&gclid=Cj0KCQjwvYSEBhDjARIsAJMn0lixNPEl0xin8Q2NQzOiqJHLkOAm7iZeSHWqOOoc3T60Eesyxztcq2MaAtZ3EALw_wcB">Premier Inn Fort William</a> </th>
+			<th>  </th>
+			<th>5-minute walk from Fort William station.</th>
+		</tr>
+		<tr>
+		  <td><a class="link" href="https://www.booking.com/hotel/gb/bennevishotel.en-gb.html?aid=343688">Ben Nevis Hotel & Leisure Club</a></td>
+		  <td>Fort William</td>
+		  <td>En-suite and dormitory style rooms. Central Fort William, 5-minute walk from station.</td>
+		</tr>
+		<tr>
+		  <td><a class="link" href="https://www.booking.com/hotel/gb/nevis-bank-inn.en-gb.html?aid=343688">Nevis Bank Inn</a</td>
+		  <td></td>
+		  <td>Modern 4-star hotel 10-minutes walk from the station, towards Glen Nevis.</td>
+		</tr>
+		<tr>
+		  <td><a class="link" href="https://www.booking.com/hotel/gb/bankstreetlodge.en-gb.html?aid=343688">Bank Street Lodge</a></td>
+		  <td></td>
+		  <td>Well placed to meet us in the morning, just opposite the railway station.</td>
+		</tr>
+		<tr> <!---->
+		  <td><a class="link" href="http://www.booking.com/hotel/gb/alexandrahotel.en-gb.html?aid=343688">Alexandra Hotel</a></td>
+		  <td> </td>
+		  <td>Classic youth hostel, 15-minute walk from the end of the Llanberis path.</td>
+		</tr>
+		<tr>
+		  <td><a class="link" href="https://www.booking.com/hotel/gb/inverlochy-castle.en-gb.html?aid=343688">Country house Inverlochy Castle Hotel</a></td>
+		  <td>Torlundy</td>
+		  <td>Luxury hotel with renowned restaurant on the outskirts of Fort William.</td>
+		</tr>
+			<tr>
+			<td> <a class="link" href="https://www.booking.com/hotel/gb/coire-glas-guest-house.en-gb.html?aid=343688">Coire Glas Guest House</a> </td>
+			<td> Roy Bridge	</td>
+			<td>Large hotel overlooking the Menai Straits, 15-minutes drive from Llanberis.</td>
+		</tr>
+	  </table>
+
+	  <H1 class="main_text1">Routes on Ben Nevis</H1>
+<div class="flex-container">
+	<div> 
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17478.87712185175!2d-5.021017132565528!3d56.79687888103911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488932978af1e5f3%3A0x6e948b77ffad9a71!2sBen%20Nevis!5e0!3m2!1sen!2suk!4v1619093203289!5m2!1sen!2suk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+	<div> 
+	<h1 class="main_text1">Ben Nevis Route</h1> 
+	<p class="main_text2">A main path runs up Ben Nevis, from Glen Nevis, which can be followed from either Glen Nevis Youth Hostel, or the Glen Nevis Visitor Centre. Early on the two paths join, and then continue to a Loch - Lochan Meall an t-Siudhe. From this half way point, the path follows a zigzag pattern to the rocky summit plateau. Large cairns mark the final ascent to the trig point which marks the peak - snow will often nearly obscure these cairns until around May each year. </p>
+	</div>
 </div>
 <div class="flex-container">
-			<div> <h1> Box 1-B </h1> </div>
-			<div> <h1> Box 2-B  </h1> </div>
-</div>
-<div class="flex-container">
-			<div> <h1> Box 1-C </h1> </div>
-			<div> <h1> Box 2-C  </h1> </div>
-			<div> <h1> Box 3-C  </h1> </div>
+	<div>
+		<img class="image-3" src="../Assets/ben-nevis-ascending-30.jpg" alt="Ben Nevis Assending" width="95%" height="95%">
+	</div>
+	<div>
+		<p class="main_text2">Popularly known as The Pony Track, this route is 10.5 miles long, 17km, up and down, and includes 1352 metres of ascent.</p>
+		<p class="main_text2">The main route in red below shows the full route from the Glen Nevis Visitor Centre. The alternative start in blue shows the route beginning at the Glen Nevis Youth Hostel.</p>
+
+	</div>
 </div>	
-<h1> FOOTER </h1>
+	<!--Footer-->
+		<div class="footer-Colouring">
+		<p class="Footer">These points are valid whether you're going for a quick walk, or are taking part in the National Three Peaks Challenge. <a class="link" href="../Index.html">National Three Peaks</a></p>
+		<p class="Footer">
+		<a class="link" href="https://www.facebook.com/ThreePeaksChallenge">Facebook</a>
+		<a class="link" href="https://twitter.com/3peakschallenge">Twitter</a>
+		<a class="link" href="https://www.instagram.com/thethreepeaks/">Instagram</a> 
+		</p>
+		<p class="Footer">
+		<p class="Footer">Three Peaks Challenge Ltd is a company registered in England and Wales. Our company registration number is 06993751. Our VAT registration is GB998704845.</p>
+	</div>
 </main>
 </body>
 </html>

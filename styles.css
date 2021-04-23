@@ -20,8 +20,21 @@ body  { /* background colour */
       margin-left: auto;
       margin-top: 5px;
       margin-right: auto;
-      
-      
+    }
+    .image-3{
+      border-radius: 30px;
+      display: block;
+      margin-left: auto;
+      margin-top: 5px;
+      margin-right: auto;
+    }
+ .Margin_1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+
+    .smaller_text{
+    font-family: 'Times New Roman', Times, serif;
     }
   
   .Title_text1{ /* title text */
